@@ -132,4 +132,7 @@ AUTHENTICATION_BACKENDS = {
 LOGIN_REDIRECT_URL = '/'
 
 SOCIAL_AUTH_FACEBOOK_KEY = '174122849755504'
+
+#Configuration secrets should be abstracted out of the source code.
+#This key is here only for dev environ purposes; it has already been reset.
 SOCIAL_AUTH_FACEBOOK_SECRET = '0aff10c4be29f7c7c16f61d43993d8ff'
